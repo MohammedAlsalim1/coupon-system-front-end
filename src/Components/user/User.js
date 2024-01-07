@@ -25,7 +25,6 @@ const User = () => {
 
             if (response.ok) {
                 const data = await response.text();
-                console.log(data)
                 return data;
             } else {
                 throw new Error('Login failed');
@@ -63,7 +62,6 @@ const User = () => {
         setError(null); // Clear previous errors
         const token = await performLogin(username, password, setError);
         if (token) {
-            console.log(token)
             dispatch(authActions.login(token))
             navigate("/home")
         }
