@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
-import {authActions} from "../store/auth-slice";
+import {authActions} from "../../Store/auth-slice";
 
 const Home = () => {
 

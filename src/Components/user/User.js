@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import {useDispatch} from "react-redux";
-import {authActions} from "../store/auth-slice";
+import {authActions} from "../../Store/auth-slice";
 import {useNavigate} from "react-router-dom";
 
 
@@ -25,6 +25,7 @@ const User = () => {
 
             if (response.ok) {
                 const data = await response.text();
+                console.log(data)
                 return data;
             } else {
                 throw new Error('Login failed');
@@ -45,6 +46,7 @@ const User = () => {
             });
 
             if (response.ok) {
+
                 const data = await response.text();
                 return data;
             } else {
@@ -59,9 +61,10 @@ const User = () => {
     const handleLogin = async (event) => {
         event.preventDefault();
         setError(null); // Clear previous errors
-        const loginData = await performLogin(username, password, setError);
-        if (loginData) {
-            dispatch(authActions.login(loginData.token))
+        const token = await performLogin(username, password, setError);
+        if (token) {
+            console.log(token)
+            dispatch(authActions.login(token))
             navigate("/home")
         }
     };
