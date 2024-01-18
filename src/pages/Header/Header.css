@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #8134af, #515ada); /* Linear gradient with purple colors */
+}
+
+.header h1 {
+    color: #f6d8ae;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header li {
+    margin: 0 1rem;
+}
+
+.header .label {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.header .coupon-system {
+    text-decoration: none;
+    color: white;
+    font-size: 2.25rem;
+}
+
+.header .label:hover,
+.header .label:active {
+    color: #2e4057;
+}
+
+.header button {
+    font-size: 1.25rem;
+    background-color: #da4167;
+    border: 1px solid #da4167;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    color: #f6d8ae;
+    margin-top: 25px;
+}
+.header button:hover {
+    background-color: #c41d47;
+}
+.header h2 {
+    color: white;
+}
+

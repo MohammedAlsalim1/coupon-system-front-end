@@ -1,0 +1,25 @@
+/* Container for the entire product page */
+.coupon-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #8134af, #515ada); /* Linear gradient with purple colors */
+    height: 100vh; /* Make the container fill the viewport height */
+}
+.coupon-card2 {
+    margin-left: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.coupon-card2 p,h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+

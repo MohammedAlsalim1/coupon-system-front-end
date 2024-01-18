@@ -1,0 +1,51 @@
+form {
+    max-width: 1000px; /* Increase the maximum width */
+    margin: 10% auto; /* Centering both horizontally and vertically */
+    padding: 100px; /* Increase the padding */
+    background: linear-gradient(to right, #8134af, #515ada); /* Linear gradient with purple colors */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.user-body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #8134af, #515ada); /* Linear gradient with purple colors */
+}
+
+label {
+    display: block;
+    margin-bottom: 20px; /* Increase the margin */
+    font-weight: bold;
+    font-size: 20px; /* Increase the font size */
+}
+
+input {
+    width: 100%;
+    padding: 18px; /* Increase the padding */
+    margin-bottom: 24px; /* Increase the margin */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 18px; /* Increase the font size */
+}
+
+button {
+    width: 100%;
+    padding: 20px; /* Increase the padding */
+    margin-bottom: 24px; /* Increase the margin */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px; /* Increase the font size */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,35 @@
+/* MyProfile.css */
+
+.my-profile-body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #8134af, #515ada); /* Linear gradient with purple colors */
+}
+
+.profile-container {
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.profile-details button {
+    background-color: #9b59b6; /* Purple button color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.profile-details button:hover {
+    background-color: #8e44ad; /* Darker purple on hover */
+}
