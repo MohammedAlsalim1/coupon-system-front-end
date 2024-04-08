@@ -21,8 +21,9 @@ This project aims to develop a comprehensive coupon management system, featuring
 - **Seamless Integration:** Frontend seamlessly integrates with the coupon system microservice through robust API connections.
   
 - **Enhanced User Engagement:** Interactive elements and smooth navigation enhance user engagement and satisfaction.
-- https://i.ibb.co/gP19LvL/Screenshot-2024-04-08-185124.png
-- https://github.com/MohammedAlsalim1/Coupon-System-MS
+
+![Screenshot 2024-04-08 200218](https://github.com/MohammedAlsalim1/coupon-system-front-end/assets/119352553/e1658c46-a5a2-4f8b-b7e5-ddbd01f76fc5)
+
 
 ## Setup Instructions
 
